@@ -1,9 +1,24 @@
+OBSOLETE
+********
+ 
+This "fork" is not maintained and not the master anymore. Please go to
+https://github.com/symfony-cmf/phpcrbrowser
+for the new main repository.
+
 <?php
+
+print "(remove this text and the die() in www/index.php if you want to use it nevertheless)"
+die();
+
 /**
  * Enter description here...
  *
  * @return jr_cr_session
  */
+ 
+ 
+
+
 include('../ext/jackalope/src/Jackalope/autoloader.php');
 
 function getJRSession() {
